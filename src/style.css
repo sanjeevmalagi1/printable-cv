@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
-body {
-  @apply text-xs;
+@theme {
+  --color-primary: hsl(205, 19%, 22%);
+  --color-primary-bg: hsl(205, 19%, 22%);
+}
+
+@media print {
+  @page {
+    margin: 0in; /* Set your desired margin here */
+  }
+
+  body {
+    @apply text-xs;
+  }
 }
