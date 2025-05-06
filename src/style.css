@@ -7,7 +7,9 @@
 
 @media print {
   @page {
-    margin: 0in; /* Set your desired margin here */
+    margin: 0;
+    margin-top: 0.25in; /* Set your desired margin here */
+    margin-bottom: 0.25in;
   }
 
   body {
