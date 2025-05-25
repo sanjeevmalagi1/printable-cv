@@ -12,7 +12,12 @@
     margin-bottom: 0.35in;
   }
 
+  iframe.skiptranslate {
+    display: none !important;
+  }
+
   body {
     @apply text-xs;
+    top: 0 !important;
   }
 }
